@@ -10,7 +10,8 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
-import tech.thdev.mediacodecexample.databinding.ActivityMainBinding
+import com.test.mediacodec.R
+import com.test.mediacodec.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

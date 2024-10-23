@@ -4,8 +4,8 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import tech.thdev.mediacodecexample.R
-import tech.thdev.mediacodecexample.databinding.AudioActivityBinding
+import com.test.mediacodec.R
+import com.test.mediacodec.databinding.AudioActivityBinding
 
 
 class AACAudioDecodeActivity : AppCompatActivity() {

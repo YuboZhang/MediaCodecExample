@@ -5,8 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.test.mediacodec.databinding.FragmentFirstBinding
 import tech.thdev.mediacodecexample.audio.AACAudioDecodeActivity
-import tech.thdev.mediacodecexample.databinding.FragmentFirstBinding
 import tech.thdev.mediacodecexample.video.VideoDecodeActivity
 
 /**

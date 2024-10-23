@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.view.SurfaceHolder
 import android.view.SurfaceView
 import androidx.appcompat.app.AppCompatActivity
-import tech.thdev.mediacodecexample.R
+import com.test.mediacodec.R
 
 
 class VideoDecodeActivity : AppCompatActivity(), SurfaceHolder.Callback {
