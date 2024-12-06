@@ -2,12 +2,12 @@
 buildscript {
     ext.kotlin_version = "1.9.20"
     repositories {
-        maven { url 'https://mirrors.huaweicloud.com/repository/maven/' }
+        //maven { url 'https://mirrors.huaweicloud.com/repository/maven/' }
         google()
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.5.0'
+        classpath 'com.android.tools.build:gradle:8.5.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -17,12 +17,12 @@ buildscript {
 
 allprojects {
     repositories {
-        maven { url 'https://mirrors.huaweicloud.com/repository/maven/' }
+        //maven { url 'https://mirrors.huaweicloud.com/repository/maven/' }
         google()
         mavenCentral()
     }
 }
 
-task clean(type: Delete) {
+tasks.register('clean', Delete) {
     delete rootProject.buildDir
 }
